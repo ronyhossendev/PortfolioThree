@@ -1,50 +1,58 @@
 /* All Common css Start */
-*{
+* {
     margin: 0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul
-ol{
+
+ul ol {
     list-style-type: none;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-    p{
-        margin: 0;
-        padding: 0;
-        line-height: 0.8;
-    }
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
 
-.container{
+.container {
     width: 1210px;
     margin: 0 auto;
 }
+
 /* All Common css End  */
 
 /* Hearder Pat Start  */
-#headerPart{
+#headerPart {
     background: white;
-  }
- .header{
+}
+
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
- }
-.menu ul{
+}
+
+.menu ul {
     display: flex;
     align-items: center;
 }
-.menu ul, li, a{
+
+.menu ul,
+li,
+a {
     padding: 0 25px;
     list-style-type: none;
     line-height: 70px;
@@ -54,7 +62,8 @@ h6,
     color: black;
 
 }
-.button a{
+
+.button a {
     padding: 10px 20px;
     background: #5e3bee;
     border-radius: 50px;
@@ -62,37 +71,44 @@ h6,
     font-weight: 500;
     font-size: 14px;
     text-transform: uppercase;
-    
-    
+
+
 }
-.button i{
+
+.button i {
     margin-left: 6px;
 }
+
 /* Headre Pat End */
 
-#bannerPat{
+#bannerPat {
     background: #f9f9fc;
     padding-top: 15px;
     padding-bottom: 60px;
 }
-.bannerFlex{
+
+.bannerFlex {
     display: flex;
     justify-content: space-between;
 
 }
-.bannerLeft{
+
+.bannerLeft {
     width: 50%;
-   
+
 }
-.bannerLeft h4{
+
+.bannerLeft h4 {
     font-size: 16px;
-    color:5E3BEE ;
+    color: #5e3bee;
     text-transform: uppercase;
     font-weight: 500;
     padding-top: 115px;
     padding-bottom: 50px;
+    cursor: #5EB3EE;
 }
-.bannerLeft h1{
+
+.bannerLeft h1 {
     font-size: 60px;
     color: 333333;
     font-weight: 700;
@@ -102,44 +118,56 @@ h6,
 
 }
 
-.bannerRight{
+.bannerRight {
     width: 50%;
 
 }
-.bannerRight img{
+
+.bannerRight img {
     width: 100%;
 }
-.bannerBtn a{
+
+.bannerBtn a {
     transition: .4s;
 
 }
-.bannerBtn i{
-    margin-left: 0!important;
+
+.bannerBtn i {
+    margin-left: 0 !important;
     margin-right: 10px;
 }
-.bannerBtn a:hover{
+
+.bannerBtn a:hover {
     background: transparent;
     color: #333333;
 }
-.CounterFixe{
+
+#containerPat {
+    padding: 90px;
+}
+
+.CounterFixe {
     display: flex;
     justify-content: space-between;
 }
-.CounterItem{
+
+.CounterItem {
     width: 25%;
     padding: 25px;
     text-align: center;
     text-transform: uppercase;
-    box-shadow: 37px 37px 80px 0 rgb(0,0,0,0.1);
+    box-shadow: 37px 37px 80px 0 rgb(0, 0, 0, 0.1);
 }
-.CounterItem h3{
+
+.CounterItem h3 {
     font-size: 48px;
     font-weight: 600px;
     color: #000000;
     padding-bottom: 10px;
 }
-.CounterItem h4{
+
+.CounterItem h4 {
     font-size: 16px;
     font-weight: 500px;
-    color: rgb(18, 18, 18,0.7);
+    color: rgb(18, 18, 18, 0.7);
 }
